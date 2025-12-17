@@ -1,0 +1,112 @@
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+.idea/
+.vscode/
+*.iml
+
+# ---- Logs ----
+logs/
+**/*.log
+**/*.log.*
+
+# ---- Python (backend) ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.pyre/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+.tox/
+.nox/
+.cache/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# SQLite / local DBs
+*.sqlite3
+*.db
+db.sqlite3
+
+# Common framework artifacts
+instance/
+
+# Environment files (secrets)
+.env
+.env.*
+!.env.example
+
+# ---- Node / Frontend ----
+node_modules/
+frontend/node_modules/
+
+# Build artifacts
+frontend/build/
+build/
+dist/
+out/
+coverage/
+
+# Framework-specific
+.next/
+.nuxt/
+.svelte-kit/
+.vite/
+.parcel-cache/
+.turbo/
+.angular/cache/
+.cache/
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Storybook
+storybook-static/
+
+# ---- E2E / Testing ----
+playwright-report/
+test-results/
+.playwright/
+.nyc_output/
+
+# Cypress (if present)
+cypress/videos/
+cypress/screenshots/
+.cypress/
+
+# ---- Containers / Misc ----
+.docker/
+.devcontainer/
+*.local
+
+# ---- OS-specific backups ----
+*~
+*.swp
+*.swo
+*.tmp
